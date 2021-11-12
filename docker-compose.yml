@@ -1,0 +1,9 @@
+version: "3"
+services:
+  srv:
+    build:
+      context: ./
+    tty: true
+    working_dir: /work
+    volumes:
+      - .:/work
